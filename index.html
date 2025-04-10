@@ -114,17 +114,23 @@
 						<label for="date">Date:</label>
 						<input type="date" id="date" name="date" /><br />
 						<label for="feedback">Feedback:</label><br />
-						<textarea name="feedback" rows="4" cols="50"></textarea><br />
+						<textarea
+							id="feedback"
+							name="feedback"
+							rows="4"
+							cols="50"
+						></textarea
+						><br />
 						<label for="rating">Rate the meeting:</label>
-						<select name="rating">
+						<select id="rating" name="rating">
 							<option value="excellent">Excellent</option>
 							<option value="good">Good</option>
 							<option value="average">Average</option>
 							<option value="poor">Poor</option></select
 						><br />
-						<label for="topics">Topics of Interest:</label>
-						<input list="topics" name="topics" />
-						<datalist>
+						<label for="topiclist">Topics of Interest:</label>
+						<input id="topiclist" list="topics" name="topics" />
+						<datalist id="topics">
 							<option value="Time Management"></option>
 							<option value="Team Collaboration"></option>
 							<option value="Project Planning"></option></datalist
