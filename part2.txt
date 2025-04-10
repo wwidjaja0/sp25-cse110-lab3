@@ -1,1 +1,41 @@
-Fill in the passphrases here.
+Passphrases
+1. WongAvery 
+<!-- Passcode for question 1: WongAvery -->
+
+2. iHateC++ 
+<title data-question2="iHateC++">Scavenger Hunt</title>
+
+3. HTMLRules 
+<p hidden=""> Passcode for question 3: HTMLRules</p>
+
+4. JavaScriptRocks 
+<question-four style="display:none">Passcode: JavaScriptRocks</question-four>
+
+5. ShraviBeatsReact 
+<span style="opacity: 0;">Question 5 Passcode:
+      ShraviBeatsReact</span>
+
+6. ThisIsJSyay; 
+// Question 6 Passcode: ThisIsJSyay;
+
+7. SofiaWasHere 
+Question 7 Passcode: SofiaWasHere
+
+8. coolcoolcool3x 
+/* Question 8 passcode: coolcoolcool3x */
+    h2,
+    img {
+      display: none;
+    }
+
+9. 2020_sucked 
+<h2>Question 9 passcode: 2020_sucked</h2>
+
+10. listenToPetalcore 
+https://cse110-sp25.github.io/Lab2_ScavengerHunt/questionten.png
+
+11. ElaineFirst 
+<meta name="question11" content="ElaineFirst">
+
+12. iHeartWebDev 
+<div data-question12passcode="iHeartWebDev"></div>
