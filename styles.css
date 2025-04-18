@@ -22,6 +22,10 @@ nav {
     gap: 30px;
 }
 
+details > p {
+    background-color: rgb(250, 213, 113);
+}
+
 .note-top {
     border-style: solid;
     border-color: #ff6600;
