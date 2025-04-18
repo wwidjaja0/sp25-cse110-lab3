@@ -15,6 +15,7 @@ header {
     display: inline-block;
     position: sticky;
     top: 0;
+    z-index: 1;
 }
 
 form {
@@ -53,6 +54,14 @@ footer {
     position: relative;
     display: flex;
     justify-content: center;
+}
+
+section:hover {
+    background-color: rgba(250, 213, 113, 0.5);
+}
+
+a:active {
+    background-color: rgba(250, 213, 113, 0.8);
 }
 
 .materials > video, .materials > img {
