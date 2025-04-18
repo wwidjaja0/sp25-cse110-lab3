@@ -86,10 +86,10 @@ section:hover {
 }
 
 a {
-    &:hover {
+    a:hover {
         text-decoration: underline;
     }
-    &:active {
+    a:active {
         background-color: rgba(250, 213, 113, 0.8);
     }
 }
