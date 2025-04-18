@@ -94,12 +94,57 @@ a:active {
 .materials {
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: 1fr 50px 0px;
-    gap: 2px;
+    grid-template-rows: 0fr 0.0fr 0;
 }
 
 #logo {
     position: fixed; 
     right: 0; 
     background-color: rgba(0, 0, 0, 0.4);
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 15px;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+
+@media (max-width: 480px) {    
+    h4 {
+        font-size: 1.2em;
+    }
+
+    li {
+        font-size: 1em;
+    }
+
+    header {
+        font-size: 0.9em;
+        padding: 10px;
+    }
+}
+
+@media (min-width: 1200px) {
+    header {
+        padding: 30px; /* Increase padding for larger screens */
+    }
+
+    h4 {
+        font-size: 1.8em; /* Increase font size for headings */
+        justify-items: center;
+    }
+
+    section {
+        justify-items: center;
+    }
+
+    #key-takeaways {
+        justify-self: center;
+        justify-items: center;
+    }
 }
