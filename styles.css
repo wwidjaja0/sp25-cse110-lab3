@@ -8,3 +8,27 @@
     font-family: var(--fancy-font, Helvetica, Arial, sans-serif);
 }
 
+header {
+    margin: auto;
+    background-color: beige;
+}
+
+.note-top {
+    border-style: solid;
+    border-color: #ff6600;
+    border-width: 2px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+.note-mid {
+    margin: 20px 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
