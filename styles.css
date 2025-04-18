@@ -16,8 +16,10 @@ header {
 
 nav {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-start;
+    align-content: center;
     align-items: center;
+    gap: 30px;
 }
 
 .note-top {
