@@ -3,7 +3,7 @@
 /* Import DM Sans from Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
 
-:root {
+* {
     --fancy-font: 'DM Sans';
     font-family: var(--fancy-font, Helvetica, Arial, sans-serif);
 }
@@ -22,19 +22,50 @@ form {
     display: none;
 }
 
-nav {
+nav, footer {
     display: flex;
+}
+
+nav {
     justify-content: flex-start;
     align-content: center;
     align-items: center;
     gap: 30px;
+
+    & > a {
+        text-decoration: none;
+        color: #ff6600;
+        font-size: 1.2em;
+    }
+
+    & > a:hover {
+        text-decoration: underline;
+    }
+}
+
+footer {
+    position: relative;
+    justify-content: center;
 }
 
 details > p {
     background-color: rgb(250, 213, 113);
 }
 
-h4 {
+/* styles p siblings of details */
+details ~ p {
+    font-style: italic;
+    color: #555;
+    margin-top: 10px;
+}
+
+/* targets the first ul following an h2 */
+h4 + ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+section h4 {
     font-size: 1.5em;
     margin: 0;
     padding: 0;
@@ -43,17 +74,15 @@ h4 {
     color: #ff6600;
 }
 
+section:has(h1) {
+    background-color: rgba(250, 213, 113, 0.5);
+}
+
 li {
     font-size: 1.2em;
     line-height: 1.5em;
     margin: 1px;
     padding: 1px;
-}
-
-footer {
-    position: relative;
-    display: flex;
-    justify-content: center;
 }
 
 section:hover {
@@ -64,6 +93,10 @@ a:active {
     background-color: rgba(250, 213, 113, 0.8);
 }
 
+a[id="pagelink"] {
+    color: green;
+}
+
 .materials > video, .materials > img {
     width: 100%;
     max-width: 600px;
@@ -71,7 +104,7 @@ a:active {
     height: auto;
 }
 
-.note-top {
+section.note-top {
     border-style: solid;
     border-color: #ff6600;
     border-width: 2px;
