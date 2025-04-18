@@ -1,2 +1,10 @@
 /* This is the CSE 110 Lab 3 Stylesheet for William Widjaja's index.html */
 
+/* Import DM Sans from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+:root {
+    --fancy-font: 'DM Sans';
+    font-family: var(--fancy-font, Helvetica, Arial, sans-serif);
+}
+
