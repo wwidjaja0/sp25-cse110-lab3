@@ -62,7 +62,7 @@ h4 + ul {
 }
 
 section {
-    h4 {
+    & h4 {
         font-size: 1.5em;
         margin: 0;
         padding: 0;
