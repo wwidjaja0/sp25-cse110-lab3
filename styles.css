@@ -31,16 +31,12 @@ nav {
     align-content: center;
     align-items: center;
     gap: 30px;
+}
 
-    & > a {
-        text-decoration: none;
-        color: #ff6600;
-        font-size: 1.2em;
-    }
-
-    & > a:hover {
-        text-decoration: underline;
-    }
+nav > a {
+    text-decoration: none;
+    color: #ff6600;
+    font-size: 1.2em;
 }
 
 footer {
@@ -89,8 +85,13 @@ section:hover {
     background-color: rgba(250, 213, 113, 0.5);
 }
 
-a:active {
-    background-color: rgba(250, 213, 113, 0.8);
+a {
+    &:hover {
+        text-decoration: underline;
+    }
+    &:active {
+        background-color: rgba(250, 213, 113, 0.8);
+    }
 }
 
 a[id="pagelink"] {
